@@ -8,12 +8,12 @@ namespace CSLT
 {
     using System;
 
-    class Game_TaiXiu
+    class TaiXiu
     {
         static int rollDice() //updated
         {
             Random rnd = new Random();
-            int die_1 = rnd.Next(6) + 1; 
+            int die_1 = rnd.Next(6) + 1;
             int die_2 = rnd.Next(6) + 1;
             int die_3 = rnd.Next(6) + 1;
             int sum_of_dice = die_1 + die_2 + die_3;

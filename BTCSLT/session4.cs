@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSLT
 {
-    internal class exercise4
+    internal class session4 //Function
     {
         static void Main()
         {
@@ -44,7 +44,6 @@ namespace CSLT
 
             Console.WriteLine("So lon nhat trong ba so la: " + max);
         }
-
         static void question01a() //câu 1, yêu cầu có ít nhất 1 giá trị
         {
             Console.WriteLine("Nhap so thu nhat:");
@@ -73,7 +72,6 @@ namespace CSLT
 
             Console.WriteLine("So lon nhat la: " + max);
         }
-
         static void question02() //tính giai thừa của 1 số nguyên không âm
         {
             Console.WriteLine("Nhap vao 1 so nguyen khong am:");
@@ -93,8 +91,7 @@ namespace CSLT
 
                 Console.WriteLine("Giai thua cua " + n + " la: " + result);
         }
-
-        public static void question03() //kiểm tra phải số nguyên tố hay không
+        static void question03() //kiểm tra phải số nguyên tố hay không
         {
             Console.WriteLine("Nhap mot so:");
             int a = int.Parse(Console.ReadLine());
@@ -125,8 +122,7 @@ namespace CSLT
                 Console.WriteLine(a + " khong phai la so nguyen to.");
             }
         }
-
-        public static void question04() //In ra tất cả các số nguyên tố nhỏ hơn số đã nhập + In ra N số nguyên tố đầu tiên
+        static void question04() //In ra tất cả các số nguyên tố nhỏ hơn số đã nhập + In ra N số nguyên tố đầu tiên
         {
             // Kiểm tra số nguyên tố
             bool IsPrime(int number)
@@ -189,7 +185,6 @@ namespace CSLT
             int n = int.Parse(Console.ReadLine());
             PrintFirstNPrimes(n);
         }
-
         static void question05()//kiểm tra và in ra tất cả các số hoàn hảo nhỏ hơn 1000
         {
             // Hàm kiểm tra số hoàn hảo
@@ -219,7 +214,6 @@ namespace CSLT
             }
             Console.WriteLine(); // Xuống dòng sau khi in
         }
-
         static void question06() //kiểm tra xem một chuỗi có phải là pangram hay không
         {
             bool IsPangram(string str)

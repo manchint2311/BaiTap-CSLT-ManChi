@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSLT
 {
-    internal class exercise2
+    internal class session2 //Data Types
     {
         static void Main()
         {

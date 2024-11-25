@@ -1,6 +1,6 @@
 ﻿using System;
 
-class exercise1
+class session1 //Structure Programming Language Fundamentals
 {
     static void Main()
     {

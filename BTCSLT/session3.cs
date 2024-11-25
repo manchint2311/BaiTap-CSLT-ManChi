@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSLT
 {
-    internal class exercise3
+    internal class session3 //Operators and Control Flow slides
     {
         static void Main()
         {
@@ -24,7 +24,7 @@ namespace CSLT
             //CFS_quest7();
             //CFS_quest8();
             //CFS_quest9();
-            //CFS_quest10();
+            CFS_quest10();
         }
 
         static void Operation_quest1() //công trừ nhân chia lấy dư
@@ -336,5 +336,5 @@ namespace CSLT
         }
 
 
-    }
+    } 
 }
