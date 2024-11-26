@@ -7,4 +7,24 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="session1.cs" />
+    <Compile Remove="session2.cs" />
+    <Compile Remove="session3.cs" />
+    <Compile Remove="session4.cs" />
+    <Compile Remove="session5.cs" />
+    <Compile Remove="session6.cs" />
+    <Compile Remove="TaiXiu.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="session1.cs" />
+    <None Include="session2.cs" />
+    <None Include="session3.cs" />
+    <None Include="session4.cs" />
+    <None Include="session5.cs" />
+    <None Include="session6.cs" />
+    <None Include="TaiXiu.cs" />
+  </ItemGroup>
+
 </Project>
